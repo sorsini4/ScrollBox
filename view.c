@@ -33,7 +33,8 @@ void show(char *text)
         if ( isprint(c) ) {
             index = c - 0x20;
         } else {
-            index = 'X'- 0x20;
+           // index = 'X'- 0x20;
+            index = ('~' - 0x20) + 1;
         }
         if (debug) {
             fprintf(stderr, "-%c", c);

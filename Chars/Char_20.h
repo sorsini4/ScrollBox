@@ -1,8 +1,7 @@
 /* Char_20.h - Space Character
  *
  * D Provine, 20 Mar 2012
- *
- * $Id: $
+ *             1 Dec 2020
  */
 
 const byte Char_20[10] = {

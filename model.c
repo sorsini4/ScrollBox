@@ -33,12 +33,15 @@ char *display_string()
         fprintf(stderr, "viewport: |%s|\r\n", viewport);
         sleep(1);
     }
-
-    startpos += 1;
+    if(startpos >= strlen(scrollmessage) -9){
+    	startpos = 0;
+    }
+    else{
+	    startpos += 1;
+    }
 
     return &viewport[0];
 }
-
 
 // there is no 'set_delay()'; start_timer() does that.
 int delay;

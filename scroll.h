@@ -13,11 +13,19 @@
 
 /* defined in "scroll.c" */
 void tick(int);
+void speed_up();
+void slow_down();
+void update_time();
+void test_mode();
+void date_mode();
+void week_mode();
+void military_mode();
 
 /* defined in "model.c" */
 void start_timer(int);
 void setup(char *);
 char *display_string();
+int get_delay();
 
 /* defined in "view.c" */
 void show(char *);

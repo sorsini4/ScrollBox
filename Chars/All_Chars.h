@@ -100,6 +100,7 @@ typedef unsigned char byte;
 #include "Char_7C.h"
 #include "Char_7D.h"
 #include "Char_7E.h"
+#include "Char_Test.h"
 
 const byte (* const glyph[])[10] = {
     &Char_20,
@@ -196,5 +197,6 @@ const byte (* const glyph[])[10] = {
     &Char_7B,
     &Char_7C,
     &Char_7D,
-    &Char_7E
+    &Char_7E,
+    &Char_Test
 };

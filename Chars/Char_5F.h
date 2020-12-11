@@ -1,8 +1,7 @@
-/* Char_5F.h - Space Character
+/* Char_5F.h - Underscore Character
  *
  * D Provine, 20 Mar 2012
- *
- * $Id: $
+ * J Bowes, 1 Dec 2020
  */
 
 const byte Char_5F[10] = {
@@ -14,7 +13,7 @@ const byte Char_5F[10] = {
     0x00,     // ........
     0x00,     // ........
     0x00,     // ........
-    0x00,     // ........
+    0x7F,     // .XXXXXXX
     0x00      // ........
 };
 
