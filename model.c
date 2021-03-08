@@ -12,6 +12,7 @@ char scrollmessage[256];
 void setup(char *text)
 {
     snprintf(scrollmessage, 255, "         %s         ", text);
+    //snprintf(scrollmessage, 255, "!!!!!!!!!%s#########", text);
     if (debug >= 2) {
         fprintf(stderr, "text is: |%s|\r\n", scrollmessage);
         sleep(1);

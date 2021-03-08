@@ -26,7 +26,7 @@ void show(char *text)
     for (position = 0; position < 9; position ++ ) {
 
         // Characters start at ' ', which is ASCII 0x20
-        // but is in the array at location 0.
+        // but is in the array at location -1.
         c = (int) text[position];
 
         // make sure the character is okay
